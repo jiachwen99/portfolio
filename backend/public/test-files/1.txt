@@ -1,0 +1,12 @@
+<JCTan> this is some chat words
+<Bob> the sky is blue
+This line is still attributed
+This line is still attributed!
+<JCTan> more chat from me!
+<Adam> this is some chat words 1
+<Adam> this is some chat words 2
+<Adam> this is some chat words 3
+<Bob> the sky is blue
+This line is still attributed
+<JCTan> more chat from me!
+This line is still attributed!

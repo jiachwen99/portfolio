@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio JC",
+  "main": "index.js",
+  "scripts": {
+    "start:frontend": "cd frontend && npm run dev",
+    "test:frontend": "cd frontend && npm run test",
+    "start:backend": "cd backend && npm run start:dev",
+    "test:backend": "cd backend && npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiachwen99/portfolio.git"
+  },
+  "author": "JC Tan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiachwen99/portfolio/issues"
+  },
+  "homepage": "https://github.com/jiachwen99/portfolio#readme"
+}
