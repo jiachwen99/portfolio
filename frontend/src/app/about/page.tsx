@@ -1,4 +1,6 @@
+import { AnimatedText } from "../components/animatedText"
 import { Layout } from "../components/layout"
+import Skills from "../components/skills"
 
 export const metadata = {
     title: 'JC Tan | About Me',
@@ -7,11 +9,11 @@ export const metadata = {
 
 export default function About() {
     return (
-        <main className="flex item-center text-black bg-main w-full min-h-screen">
-            <Layout className="">
-                <div className="flex items-center justify-between w-full">
-                </div>
+        <main className="flex w-full flex-col items-center justify-center bg-main">
+            <Layout className="pt-16">
+                <AnimatedText text="Passion Ignites Innovation" className=""/>
             </Layout>
+            <Skills />
         </main>
     )
 }

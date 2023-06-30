@@ -17,7 +17,9 @@ export default function Footer(): ReactElement {
                         underline-offset-2
                         ">JC Tan</Link>
                     </div>
-                    <Link href="https://devdreaming.com" target={"_blank"}>Say Hello</Link>
+                    <span>
+                        Contact Me
+                    </span>
                 </>
             </Layout>
         </footer>
