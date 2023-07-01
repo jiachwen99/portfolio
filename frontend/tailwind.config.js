@@ -13,6 +13,7 @@ module.exports = {
         'button-hover' : '#90b4ce',
         'paragraph' : '#5f6c7b',
         'headline' : '#094067',
+        'stroke' : '#094067'
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

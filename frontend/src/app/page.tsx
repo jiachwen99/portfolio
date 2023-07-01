@@ -4,7 +4,7 @@ import { Layout } from "./components/layout";
 import { AnimatedText } from "./components/animatedText";
 import { LinkArrow } from "./components/icons";
 import homePicture from '../../public/images/homepage.png';
-import lightBulb from '../../public/images/svgs/miscellaneous_icons_1.svg';
+import lightBulb from '../../public/images/light_bulb.svg';
 
 
 export default function Page() {

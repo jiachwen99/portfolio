@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ReactElement } from "react";
 import Logo from "./logo";
 import { usePathname } from "next/navigation";
-import { GithubIcon, LinkedInIcon, TwitterIcon } from "./icons";
+import { GithubIcon, GmailIcon, LinkedInIcon, TwitterIcon } from "./icons";
 import { motion } from "framer-motion"; 
 
 interface CustomLinkProps {
@@ -42,29 +42,28 @@ export default function Header(): ReactElement {
               <CustomLink href="/" title="Home" className="mr-4" />
               <CustomLink href="/about" title="About" className="mx-4" />
               <CustomLink href="/portfolio" title="Portfolio" className="mx-4" />
-              <CustomLink href="/contact" title="Contact" className="ml-4" />
             </nav>
             <nav className="flex items-center justify-center flex-wrap">
-              <motion.a href="https://twitter.com" target={"_blank"}
+              <motion.a href="https://github.com/jiachwen99" target={"_blank"}
               whileHover={{y:-3}}
               whileTap={{scale:0.9}}
               className="w-6 mx-3"
               >
-                <TwitterIcon className="font-large"/> 
+                <GithubIcon className="" /> 
               </motion.a>
-              <motion.a href="https://github.com" target={"_blank"}
+              <motion.a href="https://www.linkedin.com/in/jc-t-3476971a8/" target={"_blank"}
               whileHover={{y:-3}}
               whileTap={{scale:0.9}}
               className="w-6 mx-3"
               >
-                <GithubIcon /> 
+                <LinkedInIcon className="" /> 
               </motion.a>
-              <motion.a href="https://linkedin.com" target={"_blank"}
+              <motion.a href="mailto:jiachwen99@gmail.com" target={"_blank"}
               whileHover={{y:-3}}
               whileTap={{scale:0.9}}
-              className="w-6 ml-3"
+              className="w-7 ml-3"
               >
-                <LinkedInIcon /> 
+                <GmailIcon className="" /> 
               </motion.a>
             </nav>
             <div className='absolute left-[50%] top-2 translate-x-[-50%]'>
