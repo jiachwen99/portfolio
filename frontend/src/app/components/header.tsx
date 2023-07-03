@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ReactElement } from "react";
 import Logo from "./logo";
 import { usePathname } from "next/navigation";
-import { GithubIcon, GmailIcon, LinkedInIcon, TwitterIcon } from "./icons";
+import { GithubIcon, GmailIcon, LeetCodeIcon, LinkedInIcon, TwitterIcon } from "./icons";
 import { motion } from "framer-motion"; 
 
 interface CustomLinkProps {
@@ -57,6 +57,13 @@ export default function Header(): ReactElement {
               className="w-6 mx-3"
               >
                 <LinkedInIcon className="" /> 
+              </motion.a>
+              <motion.a href="https://leetcode.com/jiachwen99/" target={"_blank"}
+              whileHover={{y:-3}}
+              whileTap={{scale:0.9}}
+              className="w-6 mx-3"
+              >
+                <LeetCodeIcon className="" /> 
               </motion.a>
               <motion.a href="mailto:jiachwen99@gmail.com" target={"_blank"}
               whileHover={{y:-3}}
